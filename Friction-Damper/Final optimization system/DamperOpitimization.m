@@ -1,3 +1,11 @@
+% This script belongs to University of British Columbia
+% Smart Structural Team. Please don't use it for any object other than study
+
+% Author: Dingze Wang
+% Finished on May 31, 2017
+
+%-------------------------------------------------------
+
 %set parapmeter
 %please make sure in this area
 %The range of the thickness should be 10
@@ -48,7 +56,7 @@ end
  mesh(t,w,m,Pcr+100);
  hold on;
  xlabel('Thickness(mm)');
- ylabel('width£¨mm)');
+ ylabel('widthÂ£Â¨mm)');
  zlabel('Vol(mm3)');
  grid on;
  
@@ -144,7 +152,7 @@ meshc(t,w,Vol); %draw the volume distribution in 3D plot
 hold on;
 scatter3(t_min+10*jmin/100,w_min+100*imin/100,Vol(imin,jmin),15,c); %emphsize the critical point on 3D plot
 xlabel('Thickness(mm)');
-ylabel('width£¨mm)');
+ylabel('widthÂ£Â¨mm)');
 zlabel('Vol(mm3)');
 grid on;
 
@@ -752,7 +760,7 @@ plot(theta,m,'y'); %Buckling force
 hold on;
 
 legend('Buckling','Yielding','Fslip');
-xlabel('theta£¨o)');
+xlabel('thetaÂ£Â¨o)');
 ylabel('Force(KN)');
 grid on;
 
